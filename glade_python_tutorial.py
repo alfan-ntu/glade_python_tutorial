@@ -48,6 +48,8 @@ class Buglump:
         self.status_count = 0
         self.window.show()
 
+        # suppose this if a change from branch gtk_note
+
 
 if __name__ == "__main__":
     main = Buglump()
