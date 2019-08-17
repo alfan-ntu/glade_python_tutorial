@@ -1,7 +1,8 @@
+import sys
 import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk
-
+# way to ensure the required library is found
 try:
     import math
 except:
