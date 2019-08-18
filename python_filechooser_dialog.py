@@ -43,6 +43,8 @@ class Buglump():
         if self.response == Gtk.ResponseType.OK:
             print("Selected filepath: %s" % self.fcd.get_filename())
             self.fcd.destroy()
+        else:
+            self.fcd.destroy()
 
     # added a file filter to the file chooser dialog
     def create_filechooser_filter(self):
