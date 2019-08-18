@@ -9,6 +9,7 @@ except:
     print("math lib missing")
     sys.exit(1)
 
+
 class Buglump:
     def on_window1_destroy(self, object, data=None):
         print("quit with cancel")
